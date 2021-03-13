@@ -85,7 +85,7 @@ button:hover {
 }
 
 .bottom-section {
-  width: 7rem;
+  width: 8rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -102,10 +102,72 @@ button:hover {
   margin-bottom: 2rem;
 }
 
+.fab:hover{
+  color: var(--Magenta);
+}
+
 @media(min-width:62.5em){
   
   body{
     background-image: url(images/bg-desktop.svg);
+    background-size: cover;
+    padding: 5rem;
+  }
+
+  main{
+    max-width: 90rem;
+  }
+
+  .top-section img{
+    width: 20%;
+  }
+
+  .middle-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left-part{
+    width: 60%;
+    margin-right: 2rem;
+    margin-bottom: 0;
+  }
+
+  .left-part img{
+    width: 100%;
+    }
+
+  .right-part{
+    width: 40%;
+    height: 30rem;
+  }
+
+  .right-part h1,
+  .right-part p{
+    text-align: left;
+  }
+
+  .right-part h1{
+    font-size: 2.5rem;
+  }
+
+  .right-part p{
+    font-size: 1.1rem;
+  }
+
+  .right-part button{
+    width: 12rem;
+    margin-left: 0;
+  }
+
+  .bottom-section{
+    height: 2rem;
+    margin-right: 0;
+  }
+
+  .fab{
+    margin-bottom: 0;
   }
 }
 .attribution {
