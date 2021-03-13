@@ -1,5 +1,117 @@
+:root {
+  --Violet: hsl(257, 40%, 49%);
+  --Magenta: hsl(300, 69%, 71%);
+}
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+html,
+body {
+  min-height: 100%;
+}
 
+body {
+  background-color: var(--Violet);
+  background-image: url(images/bg-mobile.svg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  padding: 2rem;
+}
+
+main {
+  max-width: 53rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top_part {
+  width: 40%;
+}
+
+.top_part img {
+  width: 100%;
+  max-width: 240px;
+  height: auto;
+  margin-bottom: 3.5rem;
+}
+
+.bottom_part img {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.left {
+  margin-bottom: 4rem;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+button {
+  width: 14rem;
+  border-radius: 3rem;
+  color: var(--Violet);
+  padding: 1rem;
+  margin-bottom: 3rem;
+}
+
+button:hover {
+  background-color: var(--Magenta);
+  color: white;
+}
+
+.logos {
+  width: 8rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.fa {
+  width: 2rem;
+  color: white;
+  border: 0.1rem solid;
+  border-color: white;
+  border-radius: 50%;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+.fa:hover {
+  border-color: var(--Magenta);
+  color: var(--Magenta);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: white;
+}
