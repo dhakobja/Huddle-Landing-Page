@@ -14,7 +14,100 @@ body {
   min-height: 100%;
 }
 
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--Violet);
+  background-image: url(images/bg-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 2rem;
+}
 
+main{
+  max-width: 30rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top-section {
+  margin-bottom: 3rem;
+}
+
+.top-section img {
+  width: 40%;
+}
+
+.left-part {
+  margin-bottom: 3rem;
+}
+
+.left-part img {
+  width: 100%;
+}
+
+h1,
+p {
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.01rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+button {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0.1rem solid;
+  border-color: white;
+  border-radius: 2rem;
+  color: var(--Violet);
+  box-shadow: 0px 3px 15px -3px black;
+  margin-bottom: 4rem;
+  padding: 0.8rem;
+}
+
+button:hover {
+  background-color: var(--Magenta);
+  color: white;
+}
+
+.bottom-section {
+  width: 7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fab{
+  width: 34px;
+  color: white;
+  border: 0.1px solid;
+  border-radius: 50%;
+  padding: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+@media(min-width:62.5em){
+  
+  body{
+    background-image: url(images/bg-desktop.svg);
+  }
+}
 .attribution {
   font-size: 11px;
   text-align: center;
