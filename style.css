@@ -82,6 +82,7 @@ button {
 button:hover {
   background-color: var(--Magenta);
   color: white;
+  border-color: var(--Magenta);
 }
 
 .bottom-section {
